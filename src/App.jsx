@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar/Navbar'
 import Category from '../Pages/Category/Category'
-import './app.css'
+import './App.css'
 import Hero from '../Pages/Hero/Hero'
 const App = () => {
   return (
