@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Category.css';
 import Button1 from '../../Components/Button2/Button2';
 import Button2 from '../../Components/Button2/Button2';
-
+import cartImg from '../../src/assets/add-to-cart.svg'; 
 const Category = () => {
   const [products, setProducts] = useState([]);
   const categories = ["All Products", "electronics", "jewelery", "men's clothing", "women's clothing"];
@@ -55,7 +55,7 @@ const Category = () => {
 
                   <div className="action-btn">
                     <Button1 className="cart-btn">
-                      Add to cart <img src="src/assets/add-to-cart.svg" alt="Cart" className="btn-action" />
+                      Add to cart <img src={cartImg} alt="Cart" className="btn-action" />
                     </Button1>
 
                     <Button2 className="btn2">
